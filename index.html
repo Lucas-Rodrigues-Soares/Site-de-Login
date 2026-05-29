@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link href="https://icons8.com.br/icon/84020/user-male" rel="stylesheet">
+  <title>Inscreva-se</title>
+</head>
+<body>
+        
+  <nav class="navbar">
+    
+    <div class="menus">
+      
+      <a href="https://pagina-de-portfolio-inicial-lucasr.netlify.app/">Início</a>
+      <a href="https://lucas-portfolio-contatos.netlify.app/">Contato</a>
+      <a href="#">Serviços</a>
+      <a href="#">Login</a>
+      
+      
+    </div>
+    
+  </nav>
+    
+  <main class="box">
+    
+    <form>
+      
+      <h1>Login</h1>
+      
+      <div class="caixa de input">
+        
+      <input  placeholder="Usuário" type="Email">
+        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO2SMQrCQBBFH1h4BQVT5xzeySvoXSKBIOniIbTyBulUTCxSriyMzaCDkhGbffBhYWf/K2Yh4UQGlEAvqYDcs/wCBJWr3I2mfFH+zNZD0BuC7teCm4egMgSFhyCXheryM7DAiUwW2kkKz/LEWybAEtgAe+AE3CXx3ABrmYmzHzMFVkBrfE+dVt7EtyZz4PhFcVA5ADNLUI8oD5KdJRgcBIMlCE75nyCB5gGsu5uXA8ZadAAAAABJRU5ErkJggg==" alt="user">
+        
+      </div>
+      
+      <div class="caixa">
+        
+        <input placeholder="Senha" type="Password">
+        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAABAklEQVR4nO2VPY7CMBBGXwcFnIBQ8XMExB1o9iIsXAtFlFBTslRAvzcACbL0g0YaJCu7MSR2mhWf9FWZmefx2A68piYwA76Am3kLfAINIqkLHAEp8B5IQiFNB3IAJkDLPHG+7UM7mzsQLZ5XG/i2mGkIaGdFdPVF+rAYnVll/ViRv7pxu9KYjAA9Bh4rrlBvUCnp5UttuFLSGbAEBq9AzhUAkrPW6PhAaQSImBc+UJXtkgJffKBYEHl2OJ4lrmyOCbCuE5Tkfh9SF6jnxPbrBG2c2E2dIDdZ/g1oBIxDQdcSd0RCLuwyIij1gYbAKQJEH1U9/l7pq6sPYpVt1Bzt5BfkDmr5TZ8ALy8IAAAAAElFTkSuQmCC" alt="lock-2">
+        
+      </div>
+         
+      <div class="lembrar">
+        
+        <label>
+        
+          <b>  <input type="checkbox">
+             Lembrar a senha 
+          
+        </label>
+      
+        <a href="#">Esqueci a senha</a> 
+          
+        </b>
+      </div>
+        
+      <button id="btn" type="submit">Entrar</button>
+      
+      <div class="registro">
+        
+        <strong><p>Não tenho uma conta <a href="#">Registra-se</a> </p> </strong>
+        
+      </div>
+      
+    </form>
+    
+  </main>
+  
+  <h4>Por: Lucas</h4>
+  
+  
+  
+  
+  <!-- script------------------------------------->
+  
+  
+  <script>
+  
+  const botao = document.getElementById("btn");
+
+botao.addEventListener("click", () => {
+    botao.classList.toggle("trocado");
+  
+  setTimeout(() => {
+        btn.style.background = "brown";
+    }, 300);
+});
+  
+  
+  
+  
+  </script>
+  
+  
+</body>
+</html>
