@@ -1,4 +1,4 @@
-# Tela de Autenticação (Login)
+# Tela de Autenticação (Login) (Front-End)
 
 Um projeto prático focado no desenvolvimento de uma interface de login (autenticação de usuário) limpa, moderna e amigável.
 
